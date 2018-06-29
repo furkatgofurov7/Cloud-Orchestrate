@@ -1,0 +1,94 @@
+{
+  Reservations: [{
+      Instances: [{
+          AmiLaunchIndex: 0,
+          Architecture: "x86_64",
+          BlockDeviceMappings: [{
+              DeviceName: "/dev/sda1",
+              Ebs: {
+                AttachTime: 2017-11-19 09:04:01 +0000 UTC,
+                DeleteOnTermination: true,
+                Status: "attached",
+                VolumeId: "vol-005551a688fcce58b"
+              }
+            }],
+          ClientToken: "",
+          EbsOptimized: false,
+          EnaSupport: true,
+          Hypervisor: "xen",
+          ImageId: "ami-336b4456",
+          InstanceId: "i-0289d5f295fe4a3ef",
+          InstanceType: "t2.micro",
+          KeyName: "Lab3KeyPair",
+          LaunchTime: 2017-11-19 09:04:01 +0000 UTC,
+          Monitoring: {
+            State: "disabled"
+          },
+          NetworkInterfaces: [{
+              Association: {
+                IpOwnerId: "amazon",
+                PublicDnsName: "ec2-18-221-101-119.us-east-2.compute.amazonaws.com",
+                PublicIp: "18.221.101.119"
+              },
+              Attachment: {
+                AttachTime: 2017-11-19 09:04:01 +0000 UTC,
+                AttachmentId: "eni-attach-d392c038",
+                DeleteOnTermination: true,
+                DeviceIndex: 0,
+                Status: "attached"
+              },
+              Description: "",
+              Groups: [{
+                  GroupId: "sg-9d90d8f5",
+                  GroupName: "SEC_LAB3_GROUP"
+                }],
+              MacAddress: "0a:8a:fa:87:26:34",
+              NetworkInterfaceId: "eni-67ee3d4c",
+              OwnerId: "351880275390",
+              PrivateDnsName: "ip-172-31-40-161.us-east-2.compute.internal",
+              PrivateIpAddress: "172.31.40.161",
+              PrivateIpAddresses: [{
+                  Association: {
+                    IpOwnerId: "amazon",
+                    PublicDnsName: "ec2-18-221-101-119.us-east-2.compute.amazonaws.com",
+                    PublicIp: "18.221.101.119"
+                  },
+                  Primary: true,
+                  PrivateDnsName: "ip-172-31-40-161.us-east-2.compute.internal",
+                  PrivateIpAddress: "172.31.40.161"
+                }],
+              SourceDestCheck: true,
+              Status: "in-use",
+              SubnetId: "subnet-413d0e0b",
+              VpcId: "vpc-49d52620"
+            }],
+          Placement: {
+            AvailabilityZone: "us-east-2c",
+            GroupName: "",
+            Tenancy: "default"
+          },
+          PrivateDnsName: "ip-172-31-40-161.us-east-2.compute.internal",
+          PrivateIpAddress: "172.31.40.161",
+          PublicDnsName: "ec2-18-221-101-119.us-east-2.compute.amazonaws.com",
+          PublicIpAddress: "18.221.101.119",
+          RootDeviceName: "/dev/sda1",
+          RootDeviceType: "ebs",
+          SecurityGroups: [{
+              GroupId: "sg-9d90d8f5",
+              GroupName: "SEC_LAB3_GROUP"
+            }],
+          SourceDestCheck: true,
+          State: {
+            Code: 16,
+            Name: "running"
+          },
+          StateTransitionReason: "",
+          SubnetId: "subnet-413d0e0b",
+          VirtualizationType: "hvm",
+          VpcId: "vpc-49d52620"
+        }],
+      OwnerId: "351880275390",
+      ReservationId: "r-079eafe0a92407c81"
+    }]
+}
+
